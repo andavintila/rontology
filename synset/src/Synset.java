@@ -1,10 +1,10 @@
 import java.sql.*;
 
-// adresa server, user, parola, cuvant
+// This program receives 4 arguments: server address, username, password and word to be searched for;
+// and returns the synset for the word and it's definition
 public class Synset {
 
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
-		// TODO Auto-generated method stub
 		String username = args[1];
 		String password = args[2];
 		//<connection-url>jdbc:mysql://localhost:3306/cmobservatorio?useUnicode=true&amp;characterEncoding=U TF-8</connection-url>
